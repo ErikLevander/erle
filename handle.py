@@ -1,4 +1,4 @@
-print(" Welcome to Djibouti? ")
+print(" Welcome to Swedbank? ")
 Savings = int(input("State the amount you would like to save yearly "))
 Time = int(input("Enter number of years you want to invest, please "))
 Rate = int(input(" Type interest rate you wish "))
