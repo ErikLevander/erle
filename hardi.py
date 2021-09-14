@@ -5,11 +5,11 @@ kapital = float(input('Ange kapital '))
 tid = float(input('Ange hur länge: '))
 ranta = float(input('Ange ranta: '))
 
-# Calcualtion
+# Formel 
 enkel_ranta = (kapital*tid*ranta)/100
 ranta_pa_ranta = kapital * ( (1+ranta/100)**tid - 1)
 
-# Displaying result
+# Resultat
 print('Enkel ranta : %f' % (enkel_ranta))
 print('Ranta på ranta: %f' %(ranta_pa_ranta))
 
